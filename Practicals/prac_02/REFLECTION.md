@@ -10,6 +10,8 @@ Replace each `...` with your meaningful answer.
 ## What time, location and duration have you scheduled to watch lecture videos?
 
 Time: Whenever I can. Usually at the start of the week or on the weekend before. This way if I have any questions or things that really don't make sense, I can bring these issues to both PASS and the tutorial.
+Location: Uni as often as possible, home other than that.
+Duration: If I'm feeling good, I back-to-back every subsection of the lesson, taking time to do the examples. If I'm feeling not so good, I just for as long as I can.
 
 ## What are you doing well in the subject so far that you will keep doing?
 
