@@ -1,0 +1,1 @@
+There are no current projects. I've added this file so I can commit folder to GitHub.
