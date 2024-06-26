@@ -38,3 +38,14 @@
 
 ############################################################################################################
 
+def create_dictionary(strings):
+    return {string: len(string) for string in strings}
+
+
+def run_tests():
+    names = ["Len", "Craig", "Ashley", "Sam", "Kirubanithi"]
+    result = create_dictionary(names)
+    print(result)
+
+
+run_tests()
