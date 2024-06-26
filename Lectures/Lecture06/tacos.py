@@ -32,3 +32,8 @@ user2.give_taco(user1)
 user2.give_taco(user1)
 print(user1)  # Ben, 3 points, 7 tacos left
 print(user2)  # Alice, 1 points, 3 tacos left
+
+for i in range(user1.number_of_tacos):
+    user1.give_taco(user2)
+print(user1)  # Ben, 3 points, 0 tacos left
+print(user2)  # Alice, 8 points, 10 tacos left
