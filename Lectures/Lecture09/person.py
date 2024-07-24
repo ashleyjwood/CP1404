@@ -25,7 +25,8 @@ class Person:
         return self.age
 
 
-person = Person(name="John")
-person.get_date()
-person.calculate_age()
-print(f"{person.name}, you are {person.age} years old.")
+if __name__ == "__main__":
+    person = Person(name="John")
+    person.get_date()
+    person.calculate_age()
+    print(f"{person.name}, you are {person.age} years old.")
