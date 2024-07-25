@@ -8,6 +8,7 @@ class Person:
         """Initialise Person class."""
         self.name = name
         self.date_of_birth = date_of_birth
+        print("Person.init")
 
     def __repr__(self):
         """Return the user's name and date of birth as a string."""
