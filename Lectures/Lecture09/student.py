@@ -9,8 +9,11 @@ class Student(Person):
         super().__init__(**kwargs)
         self.id = student_id
         self.course = course
-        print("Student.init")
+
+    def __str__(self):
+        """Return a string representation of a Student."""
+        return f"{super().__str__()} [{self.id}] {self.course}"
 
     def __repr__(self):
-        """Return a string representation of the object."""
+        """Return a string representation of a Student."""
         return str(vars(self))
